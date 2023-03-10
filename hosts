@@ -1,12 +1,12 @@
-127.0.0.1       localhost
-127.0.1.1       vagrant.vm      vagrant
+192.168.56.1       localhost
+192.168.57.1       vagrant.vm      vagrant
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     localhost ip6-localhost ip6-loopback
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
-172.16.1.50 control
-172.16.1.51 node1
-172.16.1.52 node2
-172.16.1.53 node3
+192.168.56.15 control
+192.168.56.25 node1
+192.168.56.24 node2
+192.168.56.22 node3
